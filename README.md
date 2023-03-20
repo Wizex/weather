@@ -13,6 +13,20 @@ Current supported provider:
 - OpenWeatherMap
 - WeatherAPI
 
+# Installation
+Clone a repo:
+```shell
+git clone https://github.com/Wizex/weather.git   
+```
+Run the following command in the repository folder to install:
+```shell
+cargo install --path weather
+```
+Try to run the command:
+```shell
+weather
+```
+
 # Usage
 ## Options
 ```shell
