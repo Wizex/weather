@@ -2,7 +2,7 @@ weather
 ------------
 **weather** is a command-line tool that shows weather.
 It supports multiple weather providers. You can get weather by address and date.
-Uses the APIs of providers to get data about weather. Supports both historical and forecast data.
+Uses the APIs of providers to get data about weather. Supports both historic and forecast data.
 Date ranges, address, response and errors depend on a provider. See the API documentation for each supported provider.
 
 The configuration file are stored in the expected place for your system. For Linux it's `$XDG_CONFIG_HOME` or `$HOME/.config`,
