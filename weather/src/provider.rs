@@ -36,13 +36,13 @@ impl Provider {
 
                 let body = response
                     .text()
-                    .with_context(|| "Failed to get coordinates")?;
+                    .with_context(|| "Failed to parse response")?;
 
                 let coordinates: Vec<Coordinates> = serde_json::from_str(&body)
-                    .with_context(|| format!("Failed to get coordinates. Response: {body}"))?;
+                    .with_context(|| format!("Failed to get coordinates from response. Response: {body}"))?;
                 let coordinates = coordinates.into_iter().next().ok_or_else(|| {
                     anyhow::anyhow!(
-                    "No coordinates for specified address. Probably, specified location is wrong"
+                    "No coordinates for specified address. Probably, specified location is wrong. Response: {body}"
                 )
                 })?;
 
