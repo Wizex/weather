@@ -16,7 +16,7 @@ Current supported provider:
 # Installation
 Clone a repo:
 ```shell
-git clone https://github.com/Wizex/weather.git   
+git clone https://github.com/Wizex/weather.git && cd weather  
 ```
 Run the following command in the repository folder to install:
 ```shell
