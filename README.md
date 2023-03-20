@@ -8,6 +8,11 @@ Date ranges, address, response and errors depend on a provider. See the API docu
 The configuration file are stored in the expected place for your system. For Linux it's `$XDG_CONFIG_HOME` or `$HOME/.config`,
 Windows it's `{FOLDERID_RoamingAppData}` and MacOS it's `$HOME/Library/Application Support`. See the [`directories`] crates for more information.
 
+The project also contains HTTP clients for supported providers.
+Current supported provider:
+- OpenWeatherMap
+- WeatherAPI
+
 # Usage
 ## Options
 ```shell

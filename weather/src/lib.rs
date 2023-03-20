@@ -4,7 +4,6 @@
 //! Uses the APIs of providers to get data about weather. Supports both historical and forecast data.
 //! Date ranges, address, response and errors depend on a provider. See the API documentation for each supported provider.
 //!
-//! The project also contains HTTP clients for supported providers.
 //! Current supported providers:
 //! - OpenWeatherMap
 //! - WeatherAPI
